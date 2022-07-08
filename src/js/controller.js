@@ -124,9 +124,7 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const newFeture = function () {
-  console.log('Welcome to the application!');
-};
+
 //Publisher-Subscriber Architecture
 const init = function () {
   bookmarkView.addHandlerRender(controlBookmark);
@@ -136,7 +134,7 @@ const init = function () {
   searchView.addHandlerRender(controlSearch);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeture();
+ 
 };
 
 init();
